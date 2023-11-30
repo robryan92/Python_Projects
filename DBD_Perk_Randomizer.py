@@ -8,6 +8,7 @@
 
 # Add random offerings and add-ons later
 import random as rnd
+import time
 
 survivor = ["Windows of Opportunity", "Adrenaline", "Resilience", "Made for This", "Lithe", "Sprint Burst", "Deja Vu", "Dead Hard",
             "Bond", "Prove Thyself", "Distortion", "Unbreakable", "Kindred", "Off the Record", "Self-Care", "We'll Make It", "Hope",
@@ -40,3 +41,14 @@ killer = ["Scourge Hook: Pain Resonance", "Pop Goes the Weasel", "Surge", "Corru
           "Bloodhound", "Machine Learning", "Predator", "Deathbound", "Stridor", "Leverage", "Overwhelming Presence", "Genetic Limits", "Territorial Imperative", "Scourge Hook: Hangman's Trick", "Septic Touch", "Hoarder", 
           "Shattered Hope"]
 
+print("Welcome to Rob's Dead By Daylight Perk Randomizer!")
+
+role = input("What role are you playing?  Killer or Survivor?: \n")
+if role.lower() == survivor:
+    print("Working on finding you four random Survivor perks!")
+    time.sleep(3)
+if role.lower() == killer:
+    print("Working on finding you four random killer perks!")
+    time.sleep(3)
+else:
+    print("Invalid entry!  Be gone with you!")
