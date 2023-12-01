@@ -1,12 +1,12 @@
 # "DBD Perk Randomizer"
-# Perks broken up by survivor and Killer categories
+# Perks broken up by survivor and Killer categories- COMPLETE
 
 # Further divided by type of perk (aura, notification, 
-# escape, regression, etc....)
+# escape, regression, etc....) - NOT YET STARTED
 
-# Randomly chooses four perks with no repeat selection
+# Randomly chooses four perks with no repeat selection- COMPLETE
 
-# Add random offerings and add-ons later
+# Add random offerings and add-ons later- NOT YET STARTED
 import random as rnd
 import time
 
