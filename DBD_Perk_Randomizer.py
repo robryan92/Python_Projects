@@ -10,7 +10,9 @@
 import random as rnd
 import time
 from role_skills import survivor,killer
+from dbd_art import logo
 
+print(logo)
 print("Welcome to Rob's Dead By Daylight Perk Randomizer!")
 Survivor_perks = rnd.sample(survivor, 4)
 Killer_perks = rnd.sample(killer, 4)
