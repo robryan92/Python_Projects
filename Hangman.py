@@ -16,7 +16,6 @@ for _ in range(word_length):
 
 while not end_of_game:
     guess = input("Guess a letter: ").lower()
-
     if guess in display:
       print(f"You've already guessed {guess}.")
 
@@ -32,6 +31,7 @@ while not end_of_game:
       if lives == 0:
         end_of_game = True
         print("You Lose")
+        print(f"The word was {chosen_word}")
     #Join all the elements in the list and turn it into a String.
     print(f"{' '.join(display)}")
 
